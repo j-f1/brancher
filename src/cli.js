@@ -1,7 +1,7 @@
-require('./src/conf')
+require('./conf')
 
-const commands = require('./src/commands')
-const interactor = require('./src/interactor')
+const commands = require('./commands')
+const interactor = require('./interactor')
 const args = process.argv.slice(2)
 const chalk = require('chalk')
 const help = `Try \`${chalk.bold.underline(process.argv[1] + ' --help')}\` for help.`

@@ -1,7 +1,7 @@
 const chalk = require('chalk')
 const listify = require('listify')
 
-const NAME = require('../package.json').name
+const NAME = require('../../package.json').name
 
 module.exports = ({log: l}) => {
   l(chalk.bold(`${NAME}: a git branch manager`))

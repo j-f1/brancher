@@ -1,4 +1,4 @@
-const NAME = require('../package.json').name
+const NAME = require('../../package.json').name
 const chalk = require('chalk')
 
 module.exports = `
