@@ -1,0 +1,6 @@
+{
+  "branchNames": {
+    "develop": "dev",
+    "featurePrefix": "dev-"
+  }
+}
