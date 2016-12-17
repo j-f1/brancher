@@ -13,6 +13,7 @@
     "br": "./index.js",
     "brancher": "./index.js"
   },
+  "preferGlobal": true,
   "author": "Jed Fox",
   "license": "ISC",
   "dependencies": {
