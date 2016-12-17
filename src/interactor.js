@@ -34,12 +34,11 @@ class Interactor {
     }
   }
   fail (what, err) {
-    const msg = err.stderr || err.message || err
     let debugStr = ''
-    if (process.env.NODE_ENV !== 'production' && err.stack) {
+    if (process.env.NODE_ENV !== 'production' && (err || {}).stack) {
       debugStr = '\n' + chalk.yellow(err.stack)
     }
-    this.log(`${chalk.red('✗')} ${what}${err ? '\n' + chalk.bold.red(msg.trim()) + debugStr : ''}`)
+    this.log(`${chalk.red('✗')} ${what}${err ? '\n' + chalk.bold.red(err.stderr || err.message || err) + debugStr : ''}`)
   }
   failTo (what, err) {
     this.fail(`Failed to ${what}!`, err)
