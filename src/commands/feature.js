@@ -1,4 +1,4 @@
-const git = require('../git')
+const git = require('quick-git')
 const { BRANCHES } = require('../branches')
 const { make, save } = require('./util')
 

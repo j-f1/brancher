@@ -3,7 +3,7 @@ const chalk = require('chalk')
 const listify = require('listify')
 const minimist = require('minimist')
 
-const git = require('../git')
+const git = require('quick-git')
 const conf = require('../conf')
 const { BRANCHES, type, getBranch } = require('../branches')
 

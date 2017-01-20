@@ -1,4 +1,4 @@
-const git = require('../git')
+const git = require('quick-git')
 const { BRANCHES } = require('../branches')
 const chalk = require('chalk')
 const NAME = require('../../package.json').name

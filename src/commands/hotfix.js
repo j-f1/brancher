@@ -1,5 +1,5 @@
 const { commonMake, saveIntoDevelopAndMaster } = require('./util')
-const git = require('../git')
+const git = require('quick-git')
 const { BRANCHES } = require('../branches')
 
 exports.make = commonMake('hotfix', BRANCHES.master)

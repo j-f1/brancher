@@ -1,4 +1,4 @@
-const git = require('./git')
+const git = require('quick-git')
 const interactor = require('./interactor')
 
 exports.getBranch = what => {
