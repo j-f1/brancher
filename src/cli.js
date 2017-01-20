@@ -4,7 +4,7 @@ const commands = require('./commands')
 const interactor = require('./interactor')
 const args = process.argv.slice(2)
 const chalk = require('chalk')
-const help = `Try \`${chalk.bold.underline(process.argv[1] + ' --help')}\` for help.`
+const help = `Try \`${chalk.bold.underline(require('../package.json').name + ' --help')}\` for help.`
 
 const findCommand = (name, cmds) => {
   if (cmds.hasOwnProperty(name)) {
