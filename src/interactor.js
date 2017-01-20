@@ -38,7 +38,7 @@ class Interactor {
     if (process.env.NODE_ENV !== 'production' && (err || {}).stack) {
       debugStr = '\n' + chalk.yellow(err.stack)
     }
-    this.log(`${chalk.red('✗')} ${what}${err ? '\n' + chalk.bold.red(err.stderr || err.message || err) + debugStr : ''}`)
+    this.log(`${chalk.red('✕')} ${what}${err ? '\n' + chalk.bold.red(err.stderr || err.message || err) + debugStr : ''}`)
   }
   failTo (what, err) {
     this.fail(`Failed to ${what}!`, err)
