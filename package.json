@@ -1,6 +1,6 @@
 {
   "name": "brancher",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Handles your git branches.",
   "main": "index.js",
   "scripts": {
