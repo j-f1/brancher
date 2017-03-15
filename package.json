@@ -4,7 +4,7 @@
   "description": "Handles your git branches.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard && bithound check git@github.com:j-f1/brancher.git"
   },
   "engines": {
     "node": ">= 6.9.0"
@@ -28,6 +28,7 @@
     "yn": "^1.2.0"
   },
   "devDependencies": {
+    "bithound": "^1.7.0",
     "standard": "^9.0.1"
   },
   "repository": {
