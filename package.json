@@ -23,11 +23,19 @@
     "lodash.kebabcase": "^4.1.1",
     "minimist": "^1.2.0",
     "prettify-json": "^0.1.1",
-    "quick-git": "j-f1/quick-git",
+    "quick-git": "github:j-f1/quick-git",
     "rc": "^1.1.6",
     "yn": "^1.2.0"
   },
   "devDependencies": {
     "standard": "^8.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-f1/brancher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/j-f1/brancher/issues"
+  },
+  "homepage": "https://github.com/j-f1/brancher#readme"
 }
