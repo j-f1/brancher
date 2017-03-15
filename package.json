@@ -23,7 +23,7 @@
     "lodash.kebabcase": "^4.1.1",
     "minimist": "^1.2.0",
     "prettify-json": "^0.1.1",
-    "quick-git": "github:j-f1/quick-git",
+    "quick-git": "github:j-f1/quick-git#develop",
     "rc": "^1.1.6",
     "yn": "^1.2.0"
   },
